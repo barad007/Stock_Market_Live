@@ -21,6 +21,7 @@ async def stock_prices(value: str):
     data = st.history(interval=interval, period=period)
     df = data["Open"]
     trade_prices = df.to_json(orient="table")
+    trade_prices = jsonable_encoder(trade_prices)
     info["trade_prices"] = trade_prices
 
     # Serializing json
