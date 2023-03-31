@@ -24,8 +24,7 @@ async def stock_prices(value: str):
     info["trade_prices"] = trade_prices
 
     # Serializing json
-    json_object = json.dumps(info)
-
+    json_object = jsonable_encoder(info)
     return JSONResponse(content=json_object)
 
 if __name__ == '__main__':
