@@ -3,8 +3,6 @@ from fastapi.responses import JSONResponse
 from fastapi.encoders import jsonable_encoder
 from fastapi import FastAPI
 from pydantic import BaseModel
-import json
-import pandas as pd
 import yfinance as yf
 
 app = FastAPI()
