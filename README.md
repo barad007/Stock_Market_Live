@@ -12,7 +12,10 @@ something like this
 
 ### To call Microservice 
 
-`curl -X 'GET' 'http://0.0.0.0:8080/aap' -H 'accept: application/json'`
+`curl -X 'GET' 'http://0.0.0.0:8080/stockPrices/getAll/aap' -H 'accept: application/json'`
+
+
+`curl -X 'GET' 'http://0.0.0.0:8080/stockPrices/META/interval/1m/period/1d' -H 'accept: application/json'`
 
 ### Possible application
 
