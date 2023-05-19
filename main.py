@@ -1,7 +1,7 @@
 import uvicorn
 from fastapi.responses import JSONResponse
 from fastapi.encoders import jsonable_encoder
-from fastapi import FastAPI, HTTPException
+from fastapi import FastAPI
 import yfinance as yf
 
 app = FastAPI()
