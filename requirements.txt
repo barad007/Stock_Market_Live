@@ -35,6 +35,8 @@ fqdn==1.5.1
 frozendict==2.3.6
 h11==0.14.0
 html5lib==1.1
+httpcore==0.17.1
+httpx==0.24.1
 idna==3.4
 iniconfig==2.0.0
 ipykernel==6.22.0
